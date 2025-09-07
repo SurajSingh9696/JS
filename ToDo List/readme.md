@@ -1,41 +1,25 @@
-# Todo List
+# ToDo List
 
-## Overview
-This is a simple Todo List application that allows users to:
-- Add tasks
-- Delete tasks
-- Store tasks in local storage for persistence
+## Description
+A simple ToDo List web application to manage daily tasks. Users can add tasks, mark them as done, and refresh the list. Tasks are saved in local storage for persistence.
 
 ## Features
-- **Add Tasks**: Users can enter a task and add it to the list.
-- **Delete Tasks**: Users can remove tasks from the list.
-- **Local Storage**: Tasks are saved in the browser's local storage so that they persist even after refreshing or closing the browser.
+- Add new tasks with a topic/title
+- Mark tasks as done to remove them from the list
+- Refresh the task list
+- Tasks are saved in local storage and persist across sessions
+- Simple and clean user interface
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript (ES6)
-- LocalStorage API
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Storage:** Local Storage API
 
 ## How to Use
-1. Open the application in a web browser.
-2. Enter a task in the input field and click the "Add" button to add it to the list.
-3. Click the "Delete" button next to a task to remove it from the list.
-4. Tasks will be saved in local storage and will be available even after a page reload.
+1. Open `indextodo.html` in a web browser.
+2. Click "Add" to open the input form.
+3. Enter a task topic and click "Add" to save it.
+4. Click "Done" next to a task to remove it.
+5. Click "Refresh" to reload the task list.
 
 ## Installation
-1. Clone this repository:
-   ```sh
-   git clone <repository-url>
-   ```
-2. Open `index.html` in a web browser.
-
-## Future Enhancements
-- Edit tasks functionality
-- Mark tasks as completed
-- Filter tasks by completed or pending
-- Sync tasks across devices using a backend API
-
-## License
-This project is open-source and free to use.
-
+No installation required. Just open the HTML file in a browser.
